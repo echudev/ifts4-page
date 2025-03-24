@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #372088;
+    --color-secondary: #3cb950;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.hover\:bg-primary-dark:hover {
+  background-color: #4628b3;
+}
+
+.hover\:bg-secondary-dark:hover {
+  background-color: #329e43;
+}
